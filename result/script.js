@@ -9,6 +9,8 @@
   const $modalConfirmButton = get('.modal_button.confirm')
   const $modalCancelButton = get('.modal_button.cancel')
   const $body = get('body')
+  const $modalCancelButton = get('.modal_button.cancel')
+  const $modalConfirmButton = get('.modal_button.confirm')
 
   const toggleModal = () => {
     $modal.classList.toggle('show')
